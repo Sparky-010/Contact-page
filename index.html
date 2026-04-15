@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Contact Page | devChallenges.io</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <img src="./resources/Logo@2x.png" class="" alt="Logo">
+    </header>
+    <main class="main">
+      <div class="head">
+        <h1 class="heading">Interested in our business pricing?
+        </h1>
+
+        <p class="p-1">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+      </div>
+
+      <form action="" class="form">
+        
+        <fieldset class="f-1">
+          <div class="f-1D">
+            <label for="name">Name</label>
+          <input type="text" name="name" id="name"  placeholder="Ethan Johnson" required>
+          </div>
+
+          <div class="f-1D">
+            <label for="email">Company Email</label>
+           <input type="email" name="email" id="email"  placeholder="ethan@johnson.com" required>
+          </div>
+          
+        </fieldset>
+
+        <fieldset class="f-1">
+          
+          <div class=" f-1D">
+            <label for="size">Company Size</label>
+            <select name="size" id="size" >
+              <option value="50-100 employees">50-100 employees</option>
+            </select>
+				<img src="./Expand_down.svg" alt="">
+          </div>
+          <div class="f-1D">
+            <label for="Subject">Subject</label>
+            <select name="Subject" id="Subject" >
+              <option value="Building Landing pages">Building Landing pages</option>
+              <option value="Building Landing pages">Building Responsive pages</option>
+            </select>
+				<img src="./Expand_down.svg" alt="">
+          </div>
+          
+        </fieldset>
+
+        <label for="Message">Message</label>
+        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="50-100 employees"></textarea>
+        <br>
+        <button type="submit" class="btn">Contact Sales</button>
+      </form>
+    </main>
+
+    <footer>
+      Coded by <a href="https://sparky-010.github.io/dev">Ndembeze Kangmoh</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+    </footer>
+  </body>
+</html>
